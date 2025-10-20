@@ -1,0 +1,44 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.material-symbols-outlined1{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.navbar-container {
+  position: fixed;         /* Keeps it stuck to the viewport */
+  top: 0;                  /* Positions it at the very top */
+  left: 0;                 /* Aligns to the left edge */
+  width: 100%;             /* Full width of the screen */
+  height: 60px;            /* You can adjust this */
+  background-color: #000;  /* Or any background color */
+  display: flex;           /* For aligning the items horizontally */
+  justify-content: space-between; /* Space between logo and buttons */
+  align-items: center;     /* Vertically center items */
+  padding: 0 20px;         /* Horizontal padding */
+  z-index: 1000;           /* Ensures it stays above other content */
+  border-bottom: 1px solid #222; /* Optional: thin line for separation */
+}
+
