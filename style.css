@@ -41,4 +41,8 @@ body {
   z-index: 1000;           /* Ensures it stays above other content */
   border-bottom: 1px solid #222; /* Optional: thin line for separation */
 }
-
+.navbar-container .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
